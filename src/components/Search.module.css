@@ -1,0 +1,19 @@
+.errorMessage {
+    transform: rotate(45deg);
+    position: absolute;
+    top: 100px;
+    left: 600px;
+    z-index: 2;
+    font-size: 32px;
+    font-weight: bold;
+    color: red;
+}
+
+.img {
+    animation: rotate-anime 5s linear infinite;
+}
+
+@keyframes rotate-anime {
+    0%  {transform: rotate(0);}
+    100%  {transform: rotate(360deg);}
+}
